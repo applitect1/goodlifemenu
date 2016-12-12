@@ -7,6 +7,15 @@
         </div>
     </header>
 
+	<div class="demo-section hidden-on-narrow k-content">
+		<div id="slider" data-role="scrollview" data-bind="source: data" data-template="scrollview-template" data-content-height="500px" data-stretch="true" class="km-scrollview-overlay"></div>
+		<a id="prev-img" title="Previous Image"></a>
+		<a id="next-img" title="Next Image"></a>
+	</div>
+	
+	<script id="scrollview-template" type="text/x-kendo-template">
+		<img class="sliderimage" src="#: url #" style="max-width: 100%; height: auto;">
+	</script>
 
     <!-- START_CUSTOM_CODE_home -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->

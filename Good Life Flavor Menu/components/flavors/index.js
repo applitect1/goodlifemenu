@@ -14,13 +14,15 @@ function getParameterByName(name, url) {
 
 app.flavors = kendo.observable({
     onShow: function() {
-		var filtertype = getParameterByName('filtertype');
-		var filtername = getParameterByName('filtername');
+		var filtertype = app.filtertype;
+		var filtername = app.filtername;
 		var filter = '.flavor[data-' + filtertype + '*="'+ filtername +'"]';
 		$(document).find('.flavor').parent().hide();
 		$(document).find(filter).parent().show();
-		//var profileName = profile.substr(0,1).toUpperCase()+profile.substr(1);
-		//$(document).find('#flavors .km-view-title span').text('Good Life Flavors - '+ profileName);
+		if (filtername) {
+			var profileName = filtername.substr(0,1).toUpperCase()+filtername.substr(1);
+			$(document).find('#flavorsScreen .km-view-title span').text('Flavors - '+ profileName);
+		}
 	},
     afterShow: function() {},
 	data: [{

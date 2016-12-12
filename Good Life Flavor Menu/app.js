@@ -1,6 +1,7 @@
 'use strict';
 
 (function() {
+	
     var app = {
         data: {},
         localization: {
@@ -119,6 +120,9 @@
             }
         });
     };
+
+	app.filtertype = "";
+	app.filtername = "";
 
     /// start kendo binders
     kendo.data.binders.widget.buttonText = kendo.data.Binder.extend({
