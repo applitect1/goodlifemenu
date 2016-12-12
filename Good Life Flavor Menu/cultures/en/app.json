@@ -5,6 +5,18 @@
     "qrCodeScan": "Scan"
   },
   "home": {
-    "title": "Home View"
+    "title": "Home"
+  },
+  "bestSellers": {
+    "title": "Best Sellers"
+  },
+  "flavorProfiles": {
+    "title": "Flavor Profiles"
+  },
+  "collections": {
+    "title": "Collections"
+  },
+  "flavors": {
+    "title": "Flavors"
   }
 }

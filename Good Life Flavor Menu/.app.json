@@ -5,19 +5,48 @@
       "type": "kendo-ui-mobile:view",
       "name": "home",
       "components": [],
-      "title": "Home View",
+      "title": "Home",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "bestSellers",
+      "components": [],
+      "title": "Best Sellers",
+      "addToNavigation": true,
+      "icon": "favorites"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "flavorProfiles",
+      "components": [],
+      "title": "Flavor Profiles",
+      "addToNavigation": true,
+      "icon": "search"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "collections",
+      "components": [],
+      "title": "Collections",
+      "addToNavigation": true,
+      "icon": "search"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "flavors",
+      "components": [],
+      "title": "Flavors",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
+  "navigation": "drawer",
   "view": "home",
-  "transition": "slide",
-  "showMoreTab": true,
   "skin": "nova",
-  "skinMainColor": "#32364c",
+  "skinMainColor": "#799a05",
   "skinTextColor": "#ffffff",
-  "skinAccentColor": "#ff4350"
+  "skinAccentColor": "#555555"
 }
