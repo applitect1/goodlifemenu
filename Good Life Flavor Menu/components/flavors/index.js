@@ -1,7 +1,27 @@
 'use strict';
 
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 app.flavors = kendo.observable({
-    onShow: function() {},
+    onShow: function() {
+		var filtertype = getParameterByName('filtertype');
+		var filtername = getParameterByName('filtername');
+		var filter = '.flavor[data-' + filtertype + '*="'+ filtername +'"]';
+		$(document).find('.flavor').parent().hide();
+		$(document).find(filter).parent().show();
+		//var profileName = profile.substr(0,1).toUpperCase()+profile.substr(1);
+		//$(document).find('#flavors .km-view-title span').text('Good Life Flavors - '+ profileName);
+	},
     afterShow: function() {},
 	data: [{
 		"Item_Type": "Product",
