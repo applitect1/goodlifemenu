@@ -88,6 +88,9 @@
 .km-nova .km-drawer .km-listview li.km-state-active {
   background: #1e202d;
 }
+.km-nova .km-drawer .km-scroll-container {
+    justify-content: flex-start;
+}
 .km-nova .km-light .km-view-title {
   color: #555555;
 }
