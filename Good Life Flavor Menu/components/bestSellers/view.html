@@ -1,15 +1,25 @@
 <div data-role="view" data-title="View" data-layout="main" data-model="app.bestSellers" data-show="app.bestSellers.onShow" data-after-show="app.bestSellers.afterShow" id="bestSellersScreen" class="screen">
     <header data-role="header">
         <div data-role="navbar" class="header-text">
-
             <span data-bind="text: strings.bestSellers.title"></span>
-
             <a data-role="button" href="#appDrawer" data-rel="drawer" data-align="left" data-icon="drawer-button"></a>
-
+			<a data-role="button" href="components/home/view.html" data-align="right" data-icon="home"></a>
         </div>
     </header>
+	
+	<ul data-role="listview" data-source="source: data" data-template="favorites-template" data-selectable="true">
+		<!-- Content Loaded Here -->
+	</ul>
 
-
+	<script type="text/x-kendo-template" id="favorites-template">
+    	<div class="favorite" data-id="#: name #" data-collection="#: collection #">
+        	<img src="#: imageurl #">
+            <div class="flavor-info">
+                <h1>#: title #</h1>
+                <p class="description">#: description #</p>
+            </div>
+        </div>
+    </script>
     <!-- START_CUSTOM_CODE_bestSellers -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
 
