@@ -7,6 +7,19 @@
         </div>
     </header>
 
+	<ul data-role="listview" data-source="source: data" data-template="flavors-template" data-selectable="true">
+		<!-- Content Loaded Here -->
+	</ul>
+    
+    <script type="text/x-kendo-template" id="flavors-template">
+    	<div class="flavor" data-id="#: Product_ID #" data-collection="#: Category_Name #" data-profile="#: Profile #">
+        	<img src="#: Product_Image_URL #">
+            <div class="flavor-info">
+                <h1>#: Product_Name #</h1>
+                <p class="description">#: Description #</p>
+            </div>
+        </div>
+    </script>
 
     <!-- START_CUSTOM_CODE_flavors -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
