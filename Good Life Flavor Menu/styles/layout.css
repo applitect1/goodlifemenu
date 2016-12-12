@@ -1,0 +1,19 @@
+/* Flavor Layout & Styling */
+.flavor img,
+.flavor .flavor-info {
+    position: relative;
+    display: inline-block;
+}
+.flavor img {
+    float: left;
+    max-width: 22% !important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 4px solid #fff;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+.flavor .flavor-info {
+    float: right;
+    width: 75%;
+}
