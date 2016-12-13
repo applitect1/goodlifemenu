@@ -14,6 +14,9 @@ function getParameterByName(name, url) {
 
 app.flavors = kendo.observable({
     onShow: function() {
+		app.flavors.data.sort(function(a,b) {
+			return a.Product_Name - b.Product_Name;
+		});
 		var filtertype = app.filtertype;
 		var filtername = app.filtername;
 		var filter = '.flavor[data-' + filtertype + '*="'+ filtername +'"]';
