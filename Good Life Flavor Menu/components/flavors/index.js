@@ -105,7 +105,7 @@ var flavorData = [{
 	"Product_ID": "84",
 	"Product_Name": "Deadly Sin",
 	"Description": "A sweet, bakery kind of tobaccoish type vape. A description will never do this one justice. Some flavors are made for each other and blend perfectly. The throat hit is there, the flavor is outstanding, the blend is a 50/50. Will leave your surroundings smelling like fresh baked cookies and cakes! I have been told that this is very similar to a Crispy treat as well as Cinnamon Buns.",
-	"Profile": "bakery",
+	"Profile": "bakery, cinnamon, tobacco",
 	"Price": "5.99",
 	"Product_Not_Visible": "0",
 	"Product_Visible": "1",
@@ -1265,7 +1265,7 @@ var flavorData = [{
 	"Product_ID": "274",
 	"Product_Name": "Deadly Sin (VG)",
 	"Description": "A sweet, bakery kind of tobaccoish type vape. A description will never do this one justice. Some flavors are made for each other and blend perfectly. The throat hit is there, the flavor is outstanding, this is the high VG version of the original Deadly Sin. Will leave your surroundings smelling like fresh baked cookies and cakes! I have been told that this is very similar to a Crispy treat as well as Cinnamon Buns.",
-	"Profile": "bakery",
+	"Profile": "bakery, cinnamon, tobacco",
 	"Price": "5.99",
 	"Product_Not_Visible": "0",
 	"Product_Visible": "1",
@@ -1625,7 +1625,7 @@ var flavorData = [{
 	"Product_ID": "324",
 	"Product_Name": "PB Sin",
 	"Description": "This is the third evolution of Deadly Sin.Creamy Peanut Butter meets luscious Butterscotch with that same Crispy Treat,Cinnamon Roll,Deadly Sin kick!",
-	"Profile": "bakery, cream, cinnamon",
+	"Profile": "bakery, cream, cinnamon, tobacco",
 	"Price": "5.99",
 	"Product_Not_Visible": "0",
 	"Product_Visible": "1",
@@ -1885,7 +1885,7 @@ var flavorData = [{
 	"Product_ID": "350",
 	"Product_Name": "#GreatestDrips - Deadly Sin",
 	"Description": "A sweet, bakery kind of tobaccoish type vape. A description will never do this one justice. Some flavors are made for each other and blend perfectly. Will leave your surroundings smelling like fresh baked cookies and cakes! We have been told that this is very similar to a Crispy treat as well as Cinnamon Buns.&nbsp;Available in 60ml only.",
-	"Profile": "bakery, cinnamon",
+	"Profile": "bakery, cinnamon, tobacco",
 	"Price": "23.99",
 	"Product_Not_Visible": "0",
 	"Product_Visible": "1",
@@ -2240,7 +2240,6 @@ var flavorData = [{
 	"Category_Path": "E-Liquid/Tea Leaf Collection",
 	"Date_Added": "12/14/2016",
 	"Date_Modified": "12/14/2016"
-}, {
 }];
 
 flavorData.sort(function(a, b){
