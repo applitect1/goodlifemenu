@@ -39,6 +39,9 @@
 .km-nova .km-list .km-icon-button .km-icon {
   color: #fff;
 }
+.km-nova .km-navbar .km-icon {
+  font-size: 1.5em;
+}
 .km-nova .km-primary.km-state-active {
   background: #3b3b3b;
   border-color: #3b3b3b;
