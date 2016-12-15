@@ -40,6 +40,7 @@
 			resetApp();
 		}
 		function startCountDown() {
+			clearTimeout(interactionTimer);
 			interactionTimer = setTimeout(function(){ endCountDown(); }, 120000);
 		}
 		$("body").kendoTouch({
