@@ -31,6 +31,29 @@
 
         app.notification = $("#notify");
 
+		var interactionTimer = null;
+		function resetApp() {
+			app.mobileApp.navigate('components/home/view.html');
+		}
+		function endCountDown() {
+			clearTimeout(interactionTimer);
+			resetApp();
+		}
+		function startCountDown() {
+			interactionTimer = setTimeout(function(){ endCountDown(); }, 120000);
+		}
+		$("body").kendoTouch({
+			enableSwipe: true,
+			touchstart: function(e) { startCountDown(); },
+			touchmove: function(e) { startCountDown(); },
+			touchend: function(e) { startCountDown(); },
+			touchcancel: function(e) { startCountDown(); },
+			swipe: function(e) { startCountDown(); },
+			tap: function(e) { startCountDown(); },
+			doubletap: function(e) { startCountDown(); },
+			hold: function(e) { startCountDown(); }
+		});
+
     });
 
     app.showNotification = function(message, time) {

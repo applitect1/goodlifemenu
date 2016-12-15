@@ -6,19 +6,19 @@ app.home = kendo.observable({
     afterShow: function() {},
 	data: [
 		{
-		"url": "https://cdn2.bigcommerce.com/server4600/6ht73/product_images/theme_images/wonderland_slider.jpg?t=1470408859",
+		"url": "http://www.goodlifedistro.com/menuimages/ipad_welcome.jpg",
 		"title": "Wonderland Collection"
 		},
 		{
-		"url": "https://cdn2.bigcommerce.com/server4600/6ht73/product_images/theme_images/crusher_slider.jpg?t=1470408859",
+		"url": "http://www.goodlifedistro.com/menuimages/ipad_wonderland.jpg",
 		"title": "Wonderland Collection"
 		},
 		{
-		"url": "https://cdn2.bigcommerce.com/server4600/6ht73/product_images/theme_images/hypkng__80146.jpg?t=1470408859",
+		"url": "http://www.goodlifedistro.com/menuimages/ipad_coolcollective.jpg",
 		"title": "Wonderland Collection"
 		},
 		{
-		"url": "https://cdn2.bigcommerce.com/server4600/6ht73/product_images/theme_images/greatestdrips_slide.jpg?t=1470408859",
+		"url": "http://www.goodlifedistro.com/menuimages/ipad_tealeaf.jpg",
 		"title": "Wonderland Collection"
 		}
 	]

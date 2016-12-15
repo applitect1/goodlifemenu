@@ -2273,7 +2273,6 @@ app.flavors = kendo.observable({
 				return 1
 			return 0 //default return value (no sorting)
 		});
-		console.log(app.flavors.data);
 		var filtertype = app.filtertype;
 		var filtername = app.filtername;
 		var filter = '.flavor[data-' + filtertype + '*="'+ filtername +'"]';
