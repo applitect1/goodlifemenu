@@ -8,9 +8,12 @@
     </header>
 
 	<div class="demo-section hidden-on-narrow k-content">
-		<div id="slider" data-role="scrollview" data-bind="source: data" data-template="scrollview-template" data-content-height="690px" data-stretch="true" class="km-scrollview-overlay"></div>
-		<a id="prev-img" title="Previous Image"></a>
-		<a id="next-img" title="Next Image"></a>
+        <!--<div id="slider" data-role="scrollview" data-bind="source: data" data-template="scrollview-template" data-content-height="690px" data-stretch="true" class="km-scrollview-overlay">-->
+		<div id="slider" data-content-height="690px" data-stretch="true">
+            <img class="sliderimage" src="images/ipad_welcome.jpg" style="max-width: 100%; height: auto;">
+        </div>
+		<!--<a id="prev-img" title="Previous Image"></a>
+		<a id="next-img" title="Next Image"></a>-->
 	</div>
 	
 	<script id="scrollview-template" type="text/x-kendo-template">
