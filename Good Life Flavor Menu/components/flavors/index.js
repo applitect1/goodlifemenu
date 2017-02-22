@@ -1782,6 +1782,26 @@ var flavorData = [{
 	"Date_Modified": "09/05/2016"
 }, {
 	"Item_Type": "Product",
+	"Product_ID": "88364562",
+	"Product_Name": "Newminster No. 23",
+	"Description": "Blackberry and a subtle Brandy infused with a delicious tobacco vape. When you go out, it's hard to find a vape that satisfies with certain drinks. This one is meant to go with every man's favorite... Beer! On it's own Newminster is a great vape. Fruity and light with a hint of tobacco. The beauty of the e-liquid comes out when it's paired with a beer. The flavors pop out giving you the full flavored blackberry tobacco..",
+	"Profile": "beverage, fruit, tobacco",
+	"Price": "5.99",
+	"Product_Not_Visible": "0",
+	"Product_Visible": "1",
+	"Product_Image_ID": "748",
+	"Product_Image_File": "BlueSwag__82061.png",
+	"Product_Image_Path": "x/957/BlueSwag__82061.png",
+	"Product_Image_URL": "productimages/newminster_no_23.png",
+	"Product_Image_Is_Thumbnail": "1",
+	"Product_Image_Index": "1",
+	"Category_ID": "18",
+	"Category_Name": "Tobacco Blends",
+	"Category_Path": "E-Liquid/Tobacco Blends",
+	"Date_Added": "03/09/2013",
+	"Date_Modified": "09/05/2016"
+}, {
+	"Item_Type": "Product",
 	"Product_ID": "8263846824",
 	"Product_Name": "Turkish Smoke",
 	"Description": "A delicious version of the famous desert ship blend. Turkish Smoke offers a tangy bold tobacco flavor.",
