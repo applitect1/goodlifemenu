@@ -1863,7 +1863,12 @@ app.flavors = kendo.observable({
 			$(document).find('#flavorsScreen .km-view-title span').text('Flavors - '+ profileName);
 		}
 	},
-    afterShow: function() {},
+    onClick: function() {
+        //kendo.mobile.application.scroller().reset();
+    },
+    afterShow: function() {
+        kendo.mobile.application.scroller().reset();
+    },
 	data: flavorData
 });
 app.localization.registerView('flavors');
